@@ -33,7 +33,7 @@ def new_chat(api_key, stream=True, base_url="https://api.deepseek.com/"):
                         print(word, end="", flush=True)
                         deepseek_reply += word
                         time.sleep(0.1)
-                print()  # 换行
+                print() 
             else:
                 deepseek_reply = response.choices[0].message.content.strip()
                 print(f"deepseek: {deepseek_reply}")
