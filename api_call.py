@@ -47,5 +47,5 @@ def new_chat(api_key, stream=True, base_url="https://api.deepseek.com/"):
             print(f"deepseek: 请求失败，错误信息：{e}")
 
 if __name__ == "__main__":
-    API_KEY = "sk-80c4176ffedb478aa3ed7fbaae196486"
+    API_KEY = ""
     new_chat(api_key=API_KEY, stream=True)
